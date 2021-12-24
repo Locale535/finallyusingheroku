@@ -8,5 +8,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("HEllo, finally using heroku properly");
+  res.send("HEllo, finally using heroku properly and this is using automatic deploys from github");
 });
